@@ -1,0 +1,77 @@
+{
+  "name": "exemplo",
+  "parts": [
+    {
+      "id": "head",
+      "material": "PLAYER_HEAD",
+      "customModelData": 1001,
+      "offsetX": 0,
+      "offsetY": 1.5,
+      "offsetZ": 0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "followsHeadPitch": true
+    },
+    {
+      "id": "body",
+      "material": "LEATHER_HORSE_ARMOR",
+      "customModelData": 1002,
+      "offsetX": 0,
+      "offsetY": 1.0,
+      "offsetZ": 0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "followsHeadPitch": false
+    },
+    {
+      "id": "left_arm",
+      "material": "LEATHER_HORSE_ARMOR",
+      "customModelData": 1003,
+      "offsetX": 0.35,
+      "offsetY": 1.0,
+      "offsetZ": 0,
+      "scaleX": 0.6,
+      "scaleY": 1.0,
+      "scaleZ": 0.6,
+      "followsHeadPitch": false
+    },
+    {
+      "id": "right_arm",
+      "material": "LEATHER_HORSE_ARMOR",
+      "customModelData": 1004,
+      "offsetX": -0.35,
+      "offsetY": 1.0,
+      "offsetZ": 0,
+      "scaleX": 0.6,
+      "scaleY": 1.0,
+      "scaleZ": 0.6,
+      "followsHeadPitch": false
+    },
+    {
+      "id": "left_leg",
+      "material": "LEATHER_HORSE_ARMOR",
+      "customModelData": 1005,
+      "offsetX": 0.15,
+      "offsetY": 0.4,
+      "offsetZ": 0,
+      "scaleX": 0.6,
+      "scaleY": 1.0,
+      "scaleZ": 0.6,
+      "followsHeadPitch": false
+    },
+    {
+      "id": "right_leg",
+      "material": "LEATHER_HORSE_ARMOR",
+      "customModelData": 1006,
+      "offsetX": -0.15,
+      "offsetY": 0.4,
+      "offsetZ": 0,
+      "scaleX": 0.6,
+      "scaleY": 1.0,
+      "scaleZ": 0.6,
+      "followsHeadPitch": false
+    }
+  ]
+}

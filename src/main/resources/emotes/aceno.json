@@ -1,0 +1,13 @@
+{
+  "name": "aceno",
+  "durationTicks": 40,
+  "keyframes": [
+    { "tick": 0,  "boneId": "right_arm", "rotX": 0,   "rotY": 0, "rotZ": 0,   "transX": 0, "transY": 0, "transZ": 0 },
+    { "tick": 5,  "boneId": "right_arm", "rotX": -90, "rotY": 0, "rotZ": 0,   "transX": 0, "transY": 0.3, "transZ": 0 },
+    { "tick": 10, "boneId": "right_arm", "rotX": -90, "rotY": 0, "rotZ": 20,  "transX": 0, "transY": 0.3, "transZ": 0 },
+    { "tick": 15, "boneId": "right_arm", "rotX": -90, "rotY": 0, "rotZ": -20, "transX": 0, "transY": 0.3, "transZ": 0 },
+    { "tick": 20, "boneId": "right_arm", "rotX": -90, "rotY": 0, "rotZ": 20,  "transX": 0, "transY": 0.3, "transZ": 0 },
+    { "tick": 25, "boneId": "right_arm", "rotX": -90, "rotY": 0, "rotZ": -20, "transX": 0, "transY": 0.3, "transZ": 0 },
+    { "tick": 35, "boneId": "right_arm", "rotX": 0,   "rotY": 0, "rotZ": 0,   "transX": 0, "transY": 0, "transZ": 0 }
+  ]
+}

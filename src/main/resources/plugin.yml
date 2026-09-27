@@ -1,0 +1,28 @@
+name: CustomRig
+main: com.plugin.customrig.CustomRigPlugin
+version: 1.0.0
+api-version: '26.2'
+author: VocêMesmo
+description: Modelos customizados (rig) e emotes via Display Entities, compatível Java + Bedrock (Geyser)
+
+commands:
+  custommodel:
+    description: Aplica ou remove um modelo customizado em um jogador
+    usage: /custommodel <jogador> <arquivo|reset>
+    permission: customrig.model
+  emotes:
+    description: Toca um emote no modelo customizado ativo
+    usage: /emotes <nome|list>
+    permission: customrig.emote
+  customrigreload:
+    description: Recarrega os modelos e emotes dos arquivos
+    usage: /customrigreload
+    permission: customrig.reload
+
+permissions:
+  customrig.model:
+    default: op
+  customrig.emote:
+    default: true
+  customrig.reload:
+    default: op
